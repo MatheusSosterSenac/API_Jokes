@@ -1,0 +1,41 @@
+body {
+  width: 100%;
+}
+
+.logo {
+  width: 70px;
+  border-radius: 10px;
+}
+
+.navbar {
+  background-color: #000000; 
+  color: #f1ebeb; 
+  padding: 10px 0; 
+  text-align: center; 
+  margin-bottom: 10px;
+  height: max-content;
+  line-height: 40px;
+  margin: 0;
+}
+
+.navbartext {
+  color: white;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px; 
+}
+
+nav a {
+  color: #fff; 
+  text-decoration: none; 
+  padding: 0 10px; 
+  border-radius: 10px;
+}
