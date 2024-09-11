@@ -1,7 +1,6 @@
 import './styles.css'
 import React from "react";
 import { Link } from "react-router-dom";
-import "./styles.css";
 
 export default function Inicial() {
   return (
@@ -10,11 +9,11 @@ export default function Inicial() {
       <div className="destaque-container">
         <div className="destaque-item">
           <img
-            className="foto"
+            className="foto3"
             src="https://cdn.dicionariopopular.com/imagens/piada-do-google5.jpg"
             alt="Símbolo do Anarcocapitalismo"
           />
-          <h3 className="destaque-titulo">O que são piadas</h3>
+          <h3 className="destaque-titulo">O que são piadas?</h3>
           <p className="destaque-texto">
           A Anedota ou Piada é um gênero textual humorístico que tem o intuito de levar ao riso. São textos populares que vão sendo contados em ambientes informais, e que normalmente não possuem um autor. Trata-se de um texto narrativo simples em que geralmente há presença de enredo, personagens, tempo, espaço.
           </p>
@@ -22,7 +21,7 @@ export default function Inicial() {
         </div>
         <div className="destaque-item">
           <img
-            className="foto"
+            className="foto3"
             src="https://pbs.twimg.com/media/FPBPJVdXEA8_vp-.jpg"
             alt="Capitalismo de Livre Mercado"
           />

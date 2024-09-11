@@ -14,16 +14,16 @@ export default function Header() {
           <Navbar.Text as={Link} to="/" className="navbartext">
             Inicial
           </Navbar.Text>
-          <Navbar.Text as={Link} to="/sobre" className="navbartext">
+          <Navbar.Text as={Link} to="/about" className="navbartext">
             Sobre
           </Navbar.Text>
-          <Navbar.Text as={Link} to="/piadas" className="navbartext">
+          <Navbar.Text as={Link} to="/jokes" className="navbartext">
             Piadas
           </Navbar.Text>
-          <Navbar.Text as={Link} to="/saibamais" className="navbartext">
+          <Navbar.Text as={Link} to="/liberty" className="navbartext">
             Liberdade
           </Navbar.Text>
-          <Navbar.Text as={Link} to="/saibamais" className="navbartext">
+          <Navbar.Text as={Link} to="/comedians" className="navbartext">
             Humoristas famosos
           </Navbar.Text>
         </Navbar.Collapse>
