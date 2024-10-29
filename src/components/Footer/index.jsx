@@ -15,12 +15,6 @@ export default function Footer() {
         <Row>
           <Col lg={4} md={6} sm={12}>
             <div className="footer-section">
-              <h4 className="text">Localização</h4>
-              <button className="footer-button" onClick={openGoogleMaps}>Ver no Google Maps</button>
-            </div>
-          </Col>
-          <Col lg={4} md={6} sm={12}>
-            <div className="footer-section">
               <h4 className="text">Redes Sociais</h4>
               <ul className="social-links">     
                 <li>
