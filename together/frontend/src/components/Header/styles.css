@@ -1,0 +1,50 @@
+header {
+  background-color: purple;
+  color: white;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Alinha verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  gap: 1em;
+}
+
+header a {
+  padding: 10px 20px;
+  color: #FFF;
+  border-radius: 20px;
+}
+header a:hover {
+  background-color: rgb(82, 16, 110);
+  color: #FFF;
+}
+
+.menu {
+  background-color: rgb(163, 0, 163);
+}
+
+.menu ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li{
+  color: white;
+  text-align: center;
+  height: max-content;
+  width: 99%;
+  padding: 5%;
+  transition: background-color 1s ease;
+}
+
+.menu a{
+  text-decoration: none;
+  width: 50%;
+  margin: 0;
+}
+
+.menu li:hover {
+  background-color: rgb(144, 0, 144);
+}

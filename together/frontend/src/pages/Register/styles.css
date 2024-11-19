@@ -1,0 +1,96 @@
+/* Estilos gerais */
+.registro-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.registro-titulo {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilos do formulário */
+.registro-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.registro-campo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.registro-label {
+  font-size: 1rem;
+  color: #555;
+}
+
+.registro-input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.registro-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Botão */
+.registro-botao {
+  padding: 12px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.registro-botao:hover {
+  background-color: #0056b3;
+}
+
+/* Link */
+.registro-texto {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.registro-texto a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.registro-texto a:hover {
+  text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .registro-container {
+    padding: 15px;
+  }
+
+  .registro-titulo {
+    font-size: 1.8rem;
+  }
+
+  .registro-botao {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}
