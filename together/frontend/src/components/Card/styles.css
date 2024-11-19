@@ -1,0 +1,22 @@
+.card.joke {
+    border: 1px solid #ddd;
+    padding: 50px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    background-color: #f9f9f9;
+}
+
+.joke-content {
+    font-size: 25px;
+    line-height: 1.5;
+    color: black;
+}
+
+.joke-content p {
+    margin: 0;
+    padding: 8px 0;
+}
+
+.joke-content strong {
+    color: #333;
+}
